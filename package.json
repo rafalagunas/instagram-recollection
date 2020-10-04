@@ -1,0 +1,23 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "instagram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafastaria/instagram-recollection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafastaria/instagram-recollection/issues"
+  },
+  "homepage": "https://github.com/rafastaria/instagram-recollection#readme",
+  "dependencies": {
+    "instagram-nodejs-without-api": "^1.2.0"
+  }
+}

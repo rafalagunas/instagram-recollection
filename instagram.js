@@ -3,16 +3,16 @@ Instagram = new Instagram();
 
 function getHashtags() {
   Instagram.getCsrfToken()
-    .then(csrf => {
+    .then((csrf) => {
       Instagram.csrfToken = csrf;
     })
     .then(() => {
       //search posts by hashtag "Eurovision"
-      Instagram.searchBy("hashtag", "plata").then(r => {
+      Instagram.searchBy("hashtag", "regalo").then((r) => {
         let posts =
           r.entry_data.TagPage[0].graphql.hashtag.edge_hashtag_to_media.edges;
         if (posts) {
-          console.log(posts.length);
+          //console.log(posts.length);
           for (let i = 1; i < posts.length; i++) {
             console.log(
               "\n" +
